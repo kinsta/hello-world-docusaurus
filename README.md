@@ -13,7 +13,8 @@ During the deployment process Kinsta will automatically install dependencies def
 
 ### Port
 
-Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application. The `serve` packageutilizes the port set by Kinsta automatically.
+Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should 
+**not** hard-code it into the application. The `serve` package utilizes the port set by Kinsta automatically.
 
 ### Start Command
 
