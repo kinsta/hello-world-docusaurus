@@ -12,7 +12,7 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 
 ## Dependency Management
 
-During the deployment process Kinsta will automatically install dependencies defined in your `package.json` file.
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
 
 ## Web Server Setup
 
@@ -23,13 +23,11 @@ Kinsta automatically sets the `PORT` environment variable. You should **not** de
 
 ### Start Command
 
-When deploying an application Kinsta will automatically create a web process with `npm start` as the entry point. Make sure to use this command to run your server.
+When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
 
 ## Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
 ## What is Docusaurus
-[Docusaurus](https://docusaurus.io/) is a tool designed to make it easy for teams to publish documentation websites without having to worry about the infrastructure and design details. At its core, all a user has to provide are documentation files written in Markdown, customization of a provided home page written in React, and a few configuration modifications.
-
-More info on the [Docusaurus](https://docusaurus.io/) website.
+[Docusaurus](https://docusaurus.io/) is a static-site generator specializing in producing documentation websites that are simple to build with minimal coding experience required so you can use it out of the box. More information is available on the [Docusaurus](https://docusaurus.io/) website.
