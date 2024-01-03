@@ -1,4 +1,3 @@
-![Photo by Milad Fakurian on Unsplash](https://user-images.githubusercontent.com/2342458/197758905-c9019919-e9fa-4001-8561-089c794dfd83.png)
 # Kinsta - Hello World - Docusaurus 
 
 An example of how to deploy a static site built with **Docusaurus** on Kinsta Hosting.
